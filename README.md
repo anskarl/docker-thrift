@@ -17,7 +17,7 @@ $ THRIFT_VERSION=0.9.3 thrift -version
 Thrift version 0.9.3
 ```
 
-Alternatively you can manualy execute the following:
+Alternatively you can manually execute the following:
 
 ```
 THRIFT_VERSION=0.10.0 docker run --rm  -v $PWD:$PWD --workdir $PWD anskarl/thrift:$THRIFT_VERSION -version
